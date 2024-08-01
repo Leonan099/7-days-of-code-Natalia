@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("Style/cabecalho.css");
+@import url("Style/cards.css");
+@import url("Style/rodape.css");
+@import url("Style/botao-flutuante.css");
+@import url("reset.css");
+
+
+:root {
+    --fonte-principal: 'Montserrat'; 
+    --cor-de-fundo:#FFFFFF;
+    --cor-de-fundo-2:#ECECEC;
+    --cor-de-destaque:#FFB050;
+    --cor-de-destaque-2:#4894FF;   
+    --cor-de-titulo:#464646;
+    --cor-de-sub-titulo:#A3A3A3; 
+    
+
+}
+
+body{
+
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-de-fundo-2);
+}
+

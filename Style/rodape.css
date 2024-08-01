@@ -1,0 +1,37 @@
+.rodape {
+    background-color: var(--cor-de-destaque-2);
+    color: var(--cor-de-fundo);
+    height: 4rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+    
+}
+
+.rodape__autoria {
+    font-weight: 600;
+    font-size: 0.5rem;
+}
+.rodape__autor {
+    font-weight: 700;
+}
+
+.rodape__botao {
+    padding: 0.5rem;
+    background-color: transparent;
+    text-decoration: none;
+    color: var(--cor-de-fundo);
+    transition: 0.3s;
+    border: solid 1px var(--cor-de-destaque);
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+.rodape__botao:hover {
+    background-color: var(--cor-de-destaque);
+    transform: translateY(-5px) ;
+}
