@@ -32,23 +32,24 @@
 }
 
 .lista__elemento {
+    color: transparent;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .consulta {
     background-image: url("/assets/Calendarioicone.svg");
-    padding: 1rem ;
+    padding: 0.2rem ;
 }
 
 .cliente {
     background-image: url("/assets/clientes\ icone.svg");
-    padding: 1rem ;
+    padding: 0.2rem ;
 }
 
 .relatorio {
     background-image: url("/assets/relatorios\ icone.svg");
-    padding: 1rem ;
+    padding: 0.2rem ;
 }
 
 
