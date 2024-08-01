@@ -30,7 +30,7 @@
 }
 
 .lista__elemento {
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
 }
 
