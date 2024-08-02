@@ -104,7 +104,7 @@
     text-decoration: none;
     border-radius: 0.5rem;
     padding: 1rem 7rem;
-    transition: 0.3s;
+    transition: 0.1s;
     font-size: 0.75rem;
 
 
@@ -113,7 +113,7 @@
 .detalhe__endereço:hover {
     background-color: var(--cor-de-destaque-2);
     color: var(--cor-de-fundo);
-    transform: translateY(-5px) ;
+    transform: translateY(  5px) ;
 }
 
 .detalhe__divisao {
@@ -130,13 +130,14 @@
     text-decoration: none;
     text-align: center;
     border-radius: 0.5rem;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 .detalhe__ligar-video:hover {
     background-color: var(--cor-de-destaque);
     color: var(--cor-de-fundo);
-    transform: translateY(-5px) ;
+    transform: translateY(5px) ;
+    
 }
 
 .detalhe__ligar-audio {
@@ -147,14 +148,14 @@
     text-decoration: none;
     text-align: center;
     border-radius: 0.5rem;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 
 .detalhe__ligar-audio:hover {
     background-color: var(--cor-de-destaque);
     color: var(--cor-de-fundo);
-    transform: translateY(-5px) ;
+    transform: translateY(5px) ;
 }
 
 @media only screen and (min-width: 820px)  {
