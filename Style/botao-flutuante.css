@@ -38,7 +38,6 @@
       transform: scale(0);
       transform-origin: 85% bottom;
     background:  radial-gradient(circle at bottom right, black, 1%, transparent);
-
     z-index: 2;
   }
   
